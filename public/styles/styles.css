@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: url(../images/fundo.png);
+    background: url(../images/background.jpg);
     padding-top: 100px;
 }
 
@@ -13,6 +13,10 @@ button{
     outline: inherit;
     font: inherit;
     cursor: pointer;
+}
+
+.white{
+    background-color: white;
 }
 
 .display_buttons{

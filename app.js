@@ -286,6 +286,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     squares[index].classList.remove(colors(0))
                     squares[index].classList.remove(colors(2))
                     squares[index].classList.remove(colors(6))
+                    
                 })
                 const squaresRemoved = squares.splice(i, width)
 
