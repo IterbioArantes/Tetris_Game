@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let gameStarted = 0
     var nextRandom = Math.floor(Math.random() * 5)
     
-    
     //Tetrominoes
     const tetrominoL = [
         [2,width,width+1,width+2],
@@ -108,7 +107,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     
-
     //function to moveDown
     function moveDown() {
         remove()
@@ -294,12 +292,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 squares = squaresRemoved.concat(squares)
 
                 squares.forEach(cell => grid.appendChild(cell))
-                
             }
         }
     }
 
-    
     //add level
     function addLevel() {
         if (lines >= level*5){
@@ -318,5 +314,4 @@ document.addEventListener('DOMContentLoaded', () => {
         document.removeEventListener('keyup',control)
       
         }
-
 })
