@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../images/fundo.png);
+    padding-top: 100px;
+}
+
+button{
+    background: none;
+    padding: 0;
+    outline: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+.display_buttons{
+    width: 326px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px auto;
+}
+
+#start-button{
+    background-image: url(../images/power-button.png);
+    border-radius: 50%;
+    height: 68px;
+    width: 68px; 
+}
+
+#resume-button{
+    background-image: url(../images/resume-button.png);
+    border-radius: 50%;
+    height: 68px;
+    width: 68px;  
+}
+
+#pause-button{
+    background-image: url(../images/pause-button.png);
+    border-radius: 50%;
+    height: 68px;
+    width: 68px;
+}
+
+.game{
+    width: 326px;
+    height: 636x;
+    margin: 5px auto;
+    background-color: black;
+    border: 3px solid black;
+}
+
+.container{
+    display: flex;
+    margin-top: 3px;
+    border: 5px solid grey;
+    border-radius: 1%;
+}
+
+.grid{
+    width: 300px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 5px 5px 5px 5px;
+    border-color:  rgb(161, 228, 240);
+    border-style: solid;
+    margin: 3px;
+}
+
+.grid div{
+    height: 28px;
+    width: 28px;   
+    margin: 1px;
+}
+
+.tetrominoTOI{
+    box-sizing: border-box;
+    border: 4px solid rgb(64, 64, 197);
+    background-color: white;
+}
+
+.tetrominoLZ{
+    background-color: rgb(175, 22, 22);
+}
+
+.tetrominoJS{
+    background-color: rgb(64, 64, 197);
+}
+
+.displays{
+    display: flex;
+}
+
+.grey_radius_border{
+    border-radius: 5%;
+    border: 5px solid grey;
+}
+
+.displays > .grey_radius_border{
+    margin-right: 3px;
+}
+
+.score_display_level{
+    width: 201px;
+    height: 90px;
+    color: white;
+    background-color: black;
+    border-width: 5px 5px 5px 5px;
+    border-color:  rgb(161, 228, 240);
+    border-style: solid;
+    padding-left: 10px;
+    line-height: 26px;
+    margin: 3px;
+    box-sizing: border-box;
+
+    
+}
+
+.mini-grid{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border-width: 5px 5px 5px 5px;
+    border-color:  rgb(161, 228, 240);
+    border-style: solid;
+    margin: 3px;
+}
+
+.mini-grid div{
+    width: 20px;
+    height: 20px;
+}
