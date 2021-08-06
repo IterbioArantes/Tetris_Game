@@ -6,13 +6,7 @@ Resolução do desafio proposto de executar um programa que rodasse um jogo de T
 
 ### Equipe
 
-Vinícius daa Rosa Silva(vrs2)
-
-Itérbio Arantes Andrade(iaa)
-
-Isabela Carneiro Leão Menezes(iclm)
-
-Matheus Ribeiro Brant Nobre(mrbn)
+Itérbio Arantes Andrade
 
 ### Resources
 Link para o jogo online-> https://iterbioarantes.github.io/Tetris_Game/
